@@ -1,6 +1,6 @@
 using System;
 
-namespace Backend.Dtos;
+namespace WebAPI.Dtos;
 
 public class TodoDto
 {

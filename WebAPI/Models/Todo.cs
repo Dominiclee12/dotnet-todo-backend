@@ -1,6 +1,6 @@
 using System;
 
-namespace Backend.Models;
+namespace WebAPI.Models;
 
 public class Todo
 {

@@ -1,15 +1,15 @@
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Backend.Data;
-using Backend.Dtos;
-using Backend.Models;
+using WebAPI.Data;
+using WebAPI.Dtos;
+using WebAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Backend.Controllers
+namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

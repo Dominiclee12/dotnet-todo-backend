@@ -1,7 +1,7 @@
-using Backend.Models;
+using WebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Data;
+namespace WebAPI.Data;
 
 public class AppDbContext : DbContext
 {
